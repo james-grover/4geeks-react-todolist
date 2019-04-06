@@ -58,3 +58,12 @@ input[type=checkbox] {
 input[type=checkbox]:focus {
     outline: 0;
 }
+
+input[type=text]{
+    text-align: center;
+    border-style:none;
+    width: 70%;
+}
+
+input:focus{outline:none;}
+    

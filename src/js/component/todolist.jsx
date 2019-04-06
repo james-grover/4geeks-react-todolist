@@ -18,6 +18,15 @@ class TodoList extends React.Component {
 		return (
 			<div className="todo-list">
 				<h1>todos</h1>
+				<div className="todo-item">
+					<input
+						type="text"
+						id="myInput"
+						name="myInput"
+						maxLength="100"
+						placeholder="Enter text Here"
+					/>{" "}
+				</div>
 				{todoItems}
 			</div>
 		);
